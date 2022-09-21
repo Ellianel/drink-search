@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Londrina Solid', cursive;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: linear-gradient(to bottom, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+}
+
+.wrapper {
+	width: 800px;
+	background: linear-gradient(to bottom, rgba(30, 87, 153, 1) 0%, rgba(125, 185, 232, 0) 100%);
+}
+.header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	flex-direction: column;
+	position: relative;
+	height: 360px;
+	padding: 20px 40px;
+	font-family: 'Dancing Script', cursive;
+	background-image: url('https://cdn.pixabay.com/photo/2018/03/12/14/35/bottle-3219794_960_720.jpg');
+	background-size: cover;
+	background-position: center;
+	z-index: 0;
+}
+
+.shadow {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.35);
+	z-index: -1;
+}
+h1 {
+	margin-bottom: 30px;
+	color: azure;
+	font-size: 50px;
+}
+
+.search {
+	padding: 10px 20px;
+	margin-bottom: 40px;
+	width: 100%;
+	font-size: 16px;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.85);
+}
+
+.drink-list {
+	padding: 20px 40px;
+}
+h2 {
+	padding: 30px 0;
+}
+
+ul {
+	padding-bottom: 30px;
+	font-size: 23px;
+	list-style: none;
+}
+li {
+	padding: 8px 30px;
+	border-bottom: 1px solid rgb(226, 226, 226);
+}
+li:last-child {
+	border-bottom: 0;
+}
